@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_alert"
+        android:layout_width="189dp"
+        android:layout_height="60dp"
+        android:text="Alert Dialog"
+        android:backgroundTint="#C82D40"
+        />
+    <Button
+        android:id="@+id/btn_customdialog"
+        android:layout_width="189dp"
+        android:layout_height="60dp"
+        android:text="Custom Dialog"
+        android:backgroundTint="#C82D40"
+        />
+    <Button
+        android:id="@+id/btn_fragment_dialog"
+        android:layout_width="189dp"
+        android:layout_height="60dp"
+        android:text="Fragment Dialog"
+        android:backgroundTint="#C82D40"
+        />
+    <Button
+        android:id="@+id/btn_dataPicker"
+        android:layout_width="189dp"
+        android:layout_height="60dp"
+        android:text="DataPicker Dialog"
+        android:backgroundTint="#C82D40"
+        />
+    <Button
+        android:id="@+id/btn_timerPicker"
+        android:layout_width="189dp"
+        android:layout_height="60dp"
+        android:text="Timer Picker Dialog"
+        android:backgroundTint="#C82D40"
+        />
+    <Button
+        android:id="@+id/btn_bottomSheet"
+        android:layout_width="189dp"
+        android:layout_height="60dp"
+        android:text="BottomSheet Dialog"
+        android:backgroundTint="#C82D40"
+        />
+    <Button
+        android:id="@+id/btn_snackBar"
+        android:layout_width="189dp"
+        android:layout_height="60dp"
+        android:text="Snack Bar"
+        android:backgroundTint="#C82D40"
+        />
+
+
+</LinearLayout>
